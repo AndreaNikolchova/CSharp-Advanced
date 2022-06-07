@@ -1,33 +1,57 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 namespace Truck_Tour
 {
     internal class Program
     {
-        class Pumps
-        {
-            public long Liters { get; set; }
-            public long Distance  { get; set; }
-            public Pumps (long liters, long distance)
-            {
-                this.Liters = liters;
-                this.Distance = distance;
-            }
+        public class TruckTour
+{
+    static int entries;
+    static Queue<int[]> pumps;
 
+    public static void Main(string[] args)
+    {
+
+        entries = int.Parse(Console.ReadLine());
+        pumps = new Queue<int[]>();
+        
+        for (int entry = 0; entry < entries; entry++)
+            pumps.Enqueue(Console.ReadLine().Split(' ').Select(int.Parse).ToArray());
+
+        for (int entry = 0; entry < entries; entry++)
+        {
+            if (IsSolution())
+            {
+                Console.WriteLine(entry);
+                break;
+            } 
+            int[] startingPump = pumps.Dequeue();
+            pumps.Enqueue(startingPump);
         }
 
-        static void Main(string[] args)
+    }
+
+    static bool IsSolution()
+    {
+        int tankFuel = 0;
+        bool foundAnswer = true;
+
+        for (int entry = 0; entry < entries; entry++)
         {
-            int n = int.Parse(Console.ReadLine()); 
-            Queue<Pumps> queue = new Queue<Pumps>();
-            for (int i = 0; i < n; i++)
-            {
-                string[] line = Console.ReadLine().Split(" ");
-                queue.Enqueue(new Pumps(long.Parse(line[0]), long.Parse(line[1])));
-            }
-
-
+            int[] currPump = pumps.Dequeue();
+            tankFuel += currPump[0] - currPump[1];
+            if (tankFuel < 0)
+                foundAnswer = false;
+            pumps.Enqueue(currPump);
         }
+
+        if (foundAnswer)
+            return true;
+        else
+            return false;
+
+    }
+}
     }
 }
