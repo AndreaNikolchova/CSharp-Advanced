@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\bin\Debug\netcoreapp3.1\Multiple Inheritance.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\bin\Debug\netcoreapp3.1\Multiple Inheritance.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\bin\Debug\netcoreapp3.1\Multiple Inheritance.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\bin\Debug\netcoreapp3.1\Multiple Inheritance.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\bin\Debug\netcoreapp3.1\Multiple Inheritance.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\bin\Debug\netcoreapp3.1\Multiple Inheritance.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Multiple Inheritance\obj\Debug\netcoreapp3.1\Multiple Inheritance.genruntimeconfig.cache

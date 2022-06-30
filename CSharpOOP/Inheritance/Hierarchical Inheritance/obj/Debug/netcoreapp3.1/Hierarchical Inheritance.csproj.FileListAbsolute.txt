@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\bin\Debug\netcoreapp3.1\Hierarchical Inheritance.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\bin\Debug\netcoreapp3.1\Hierarchical Inheritance.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\bin\Debug\netcoreapp3.1\Hierarchical Inheritance.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\bin\Debug\netcoreapp3.1\Hierarchical Inheritance.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\bin\Debug\netcoreapp3.1\Hierarchical Inheritance.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\bin\Debug\netcoreapp3.1\Hierarchical Inheritance.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Hierarchical Inheritance\obj\Debug\netcoreapp3.1\Hierarchical Inheritance.genruntimeconfig.cache

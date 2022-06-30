@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\bin\Debug\netcoreapp3.1\Single Inheritance.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\bin\Debug\netcoreapp3.1\Single Inheritance.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\bin\Debug\netcoreapp3.1\Single Inheritance.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\bin\Debug\netcoreapp3.1\Single Inheritance.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\bin\Debug\netcoreapp3.1\Single Inheritance.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\bin\Debug\netcoreapp3.1\Single Inheritance.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Inheritance\Single Inheritance\obj\Debug\netcoreapp3.1\Single Inheritance.genruntimeconfig.cache

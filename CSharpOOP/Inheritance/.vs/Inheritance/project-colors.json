@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "807e54da-d5f7-4ef5-a728-c503b9214c39": {
+      "ProjectGuid": "807e54da-d5f7-4ef5-a728-c503b9214c39",
+      "DisplayName": "Single Inheritance",
+      "ColorIndex": 0
+    },
+    "b1ec94e3-7f0e-4fd4-aa97-6974e78e8573": {
+      "ProjectGuid": "b1ec94e3-7f0e-4fd4-aa97-6974e78e8573",
+      "DisplayName": "Multiple Inheritance",
+      "ColorIndex": 1
+    },
+    "400a9ed2-0bb5-4b88-91d4-521db526cdec": {
+      "ProjectGuid": "400a9ed2-0bb5-4b88-91d4-521db526cdec",
+      "DisplayName": "Hierarchical Inheritance",
+      "ColorIndex": 2
+    },
+    "1a5738a6-78a8-4569-80a4-f75261dd0fe4": {
+      "ProjectGuid": "1a5738a6-78a8-4569-80a4-f75261dd0fe4",
+      "DisplayName": "Random List",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "1ad6f608-17ba-4eb9-b9e2-8290f1c385a9": {
+      "ProjectGuid": "1ad6f608-17ba-4eb9-b9e2-8290f1c385a9",
+      "DisplayName": "Stack of Strings",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
