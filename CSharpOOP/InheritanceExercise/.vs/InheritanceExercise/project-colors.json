@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f5bbdd67-3182-49f7-9333-a67939d000be": {
+      "ProjectGuid": "f5bbdd67-3182-49f7-9333-a67939d000be",
+      "DisplayName": "Restaurant",
+      "ColorIndex": 0
+    },
+    "f792c3a4-d2e2-4c16-8d26-a556d32cdebd": {
+      "ProjectGuid": "f792c3a4-d2e2-4c16-8d26-a556d32cdebd",
+      "DisplayName": "NeedForSpeed",
+      "ColorIndex": 1
+    },
+    "d2249e70-2fc3-4800-ac7f-7fac380007ad": {
+      "ProjectGuid": "d2249e70-2fc3-4800-ac7f-7fac380007ad",
+      "DisplayName": "PlayersAndMonsters",
+      "ColorIndex": 2
+    },
+    "9930d442-7f88-406e-aae0-9461db0b329e": {
+      "ProjectGuid": "9930d442-7f88-406e-aae0-9461db0b329e",
+      "DisplayName": "Zoo",
+      "ColorIndex": 3
+    },
+    "23920482-0658-4b8f-aadf-f7ac11015041": {
+      "ProjectGuid": "23920482-0658-4b8f-aadf-f7ac11015041",
+      "DisplayName": "Animals",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

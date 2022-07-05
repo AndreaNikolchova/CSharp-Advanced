@@ -1,0 +1,13 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\bin\Debug\netcoreapp3.1\Person.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\bin\Debug\netcoreapp3.1\Person.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\bin\Debug\netcoreapp3.1\Person.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\bin\Debug\netcoreapp3.1\Person.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\bin\Debug\netcoreapp3.1\Person.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\bin\Debug\netcoreapp3.1\Person.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\obj\Debug\netcoreapp3.1\Person.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\obj\Debug\netcoreapp3.1\Person.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\obj\Debug\netcoreapp3.1\Person.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\obj\Debug\netcoreapp3.1\Person.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\obj\Debug\netcoreapp3.1\Person.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\obj\Debug\netcoreapp3.1\Person.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\Person\obj\Debug\netcoreapp3.1\Person.genruntimeconfig.cache

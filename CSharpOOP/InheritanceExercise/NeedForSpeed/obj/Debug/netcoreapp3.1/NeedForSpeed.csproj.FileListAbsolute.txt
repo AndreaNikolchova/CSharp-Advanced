@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\bin\Debug\netcoreapp3.1\NeedForSpeed.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\bin\Debug\netcoreapp3.1\NeedForSpeed.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\bin\Debug\netcoreapp3.1\NeedForSpeed.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\bin\Debug\netcoreapp3.1\NeedForSpeed.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\bin\Debug\netcoreapp3.1\NeedForSpeed.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\bin\Debug\netcoreapp3.1\NeedForSpeed.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\InheritanceExercise\NeedForSpeed\obj\Debug\netcoreapp3.1\NeedForSpeed.genruntimeconfig.cache
