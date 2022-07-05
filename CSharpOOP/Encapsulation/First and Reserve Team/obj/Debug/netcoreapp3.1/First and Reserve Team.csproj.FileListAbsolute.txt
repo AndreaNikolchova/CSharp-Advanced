@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\bin\Debug\netcoreapp3.1\First and Reserve Team.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\bin\Debug\netcoreapp3.1\First and Reserve Team.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\bin\Debug\netcoreapp3.1\First and Reserve Team.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\bin\Debug\netcoreapp3.1\First and Reserve Team.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\bin\Debug\netcoreapp3.1\First and Reserve Team.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\bin\Debug\netcoreapp3.1\First and Reserve Team.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\First and Reserve Team\obj\Debug\netcoreapp3.1\First and Reserve Team.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\bin\Debug\netcoreapp3.1\Validation of Data.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\bin\Debug\netcoreapp3.1\Validation of Data.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\bin\Debug\netcoreapp3.1\Validation of Data.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\bin\Debug\netcoreapp3.1\Validation of Data.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\bin\Debug\netcoreapp3.1\Validation of Data.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\bin\Debug\netcoreapp3.1\Validation of Data.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\obj\Debug\netcoreapp3.1\Validation of Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\obj\Debug\netcoreapp3.1\Validation of Data.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\obj\Debug\netcoreapp3.1\Validation of Data.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\obj\Debug\netcoreapp3.1\Validation of Data.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\obj\Debug\netcoreapp3.1\Validation of Data.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\obj\Debug\netcoreapp3.1\Validation of Data.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Persons\Validation of Data\obj\Debug\netcoreapp3.1\Validation of Data.genruntimeconfig.cache

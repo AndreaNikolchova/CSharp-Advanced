@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7ca1a0d0-c0fc-4a37-a866-78ea12b680a2": {
+      "ProjectGuid": "7ca1a0d0-c0fc-4a37-a866-78ea12b680a2",
+      "DisplayName": "Person",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "c807f77c-0362-4aee-a888-6e66ddbc940e": {
+      "ProjectGuid": "c807f77c-0362-4aee-a888-6e66ddbc940e",
+      "DisplayName": "Salary Increase",
+      "ColorIndex": 1
+    },
+    "7232e1d6-2385-4cd5-9e87-42dd6ccfbfaf": {
+      "ProjectGuid": "7232e1d6-2385-4cd5-9e87-42dd6ccfbfaf",
+      "DisplayName": "Validation of Data",
+      "ColorIndex": 2
+    },
+    "504c3c7d-d26f-4fce-b599-e239bc85a659": {
+      "ProjectGuid": "504c3c7d-d26f-4fce-b599-e239bc85a659",
+      "DisplayName": "First and Reserve Team",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
