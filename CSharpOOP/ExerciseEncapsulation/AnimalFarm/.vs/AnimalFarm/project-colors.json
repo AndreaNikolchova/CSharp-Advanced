@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9f3a2ad9-bd29-4728-b2de-df94c86e5b2b": {
+      "ProjectGuid": "9f3a2ad9-bd29-4728-b2de-df94c86e5b2b",
+      "DisplayName": "AnimalFarm",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
