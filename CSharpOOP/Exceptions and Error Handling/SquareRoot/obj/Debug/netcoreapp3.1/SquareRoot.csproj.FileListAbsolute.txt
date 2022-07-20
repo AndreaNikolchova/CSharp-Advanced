@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\bin\Debug\netcoreapp3.1\SquareRoot.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\bin\Debug\netcoreapp3.1\SquareRoot.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\bin\Debug\netcoreapp3.1\SquareRoot.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\bin\Debug\netcoreapp3.1\SquareRoot.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\bin\Debug\netcoreapp3.1\SquareRoot.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\bin\Debug\netcoreapp3.1\SquareRoot.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\SquareRoot\obj\Debug\netcoreapp3.1\SquareRoot.genruntimeconfig.cache

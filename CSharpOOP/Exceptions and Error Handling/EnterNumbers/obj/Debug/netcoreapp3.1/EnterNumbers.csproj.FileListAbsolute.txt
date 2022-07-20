@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\bin\Debug\netcoreapp3.1\EnterNumbers.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\bin\Debug\netcoreapp3.1\EnterNumbers.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\bin\Debug\netcoreapp3.1\EnterNumbers.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\bin\Debug\netcoreapp3.1\EnterNumbers.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\bin\Debug\netcoreapp3.1\EnterNumbers.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\bin\Debug\netcoreapp3.1\EnterNumbers.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Exceptions and Error Handling Lab\EnterNumbers\obj\Debug\netcoreapp3.1\EnterNumbers.genruntimeconfig.cache

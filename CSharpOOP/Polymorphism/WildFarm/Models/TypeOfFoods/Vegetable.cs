@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WildFarm.Models.TypeOfFoods
+﻿namespace WildFarm.Models.TypeOfFoods
 {
-    internal class Vegetable
+    public class Vegetable : Food
     {
+        public Vegetable(int quantity) : base(quantity)
+        {
+        }
     }
 }
