@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\bin\Debug\netcoreapp3.1\MathOperation.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\bin\Debug\netcoreapp3.1\MathOperation.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\bin\Debug\netcoreapp3.1\MathOperation.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\bin\Debug\netcoreapp3.1\MathOperation.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\bin\Debug\netcoreapp3.1\MathOperation.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\bin\Debug\netcoreapp3.1\MathOperation.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\MathOperation\obj\Debug\netcoreapp3.1\MathOperation.genruntimeconfig.cache

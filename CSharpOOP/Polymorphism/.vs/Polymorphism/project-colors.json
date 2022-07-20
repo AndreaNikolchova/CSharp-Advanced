@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d0d7e5a3-d80d-4e1c-8ec6-c64267be090a": {
+      "ProjectGuid": "d0d7e5a3-d80d-4e1c-8ec6-c64267be090a",
+      "DisplayName": "MathOperation",
+      "ColorIndex": 0
+    },
+    "f7167f0c-083a-4c37-9270-73ba5b00d979": {
+      "ProjectGuid": "f7167f0c-083a-4c37-9270-73ba5b00d979",
+      "DisplayName": "Animals",
+      "ColorIndex": 1
+    },
+    "483e030d-79f1-4148-8f68-80b1468cd234": {
+      "ProjectGuid": "483e030d-79f1-4148-8f68-80b1468cd234",
+      "DisplayName": "Shapes",
+      "ColorIndex": 2
+    },
+    "5de3dd4b-134c-4957-a3ed-c96b42983009": {
+      "ProjectGuid": "5de3dd4b-134c-4957-a3ed-c96b42983009",
+      "DisplayName": "Vehicles",
+      "ColorIndex": 3
+    },
+    "0c99547b-6195-4b34-a53a-b122a7b6af72": {
+      "ProjectGuid": "0c99547b-6195-4b34-a53a-b122a7b6af72",
+      "DisplayName": "VehiclesExtension",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

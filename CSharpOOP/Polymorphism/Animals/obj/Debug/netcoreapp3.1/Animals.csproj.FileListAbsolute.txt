@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\bin\Debug\netcoreapp3.1\Animals.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\bin\Debug\netcoreapp3.1\Animals.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\bin\Debug\netcoreapp3.1\Animals.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\bin\Debug\netcoreapp3.1\Animals.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\bin\Debug\netcoreapp3.1\Animals.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\bin\Debug\netcoreapp3.1\Animals.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Polymorphism\Animals\obj\Debug\netcoreapp3.1\Animals.genruntimeconfig.cache

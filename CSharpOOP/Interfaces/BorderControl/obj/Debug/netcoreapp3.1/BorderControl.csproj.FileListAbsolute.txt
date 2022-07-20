@@ -1,0 +1,13 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\bin\Debug\netcoreapp3.1\BorderControl.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\bin\Debug\netcoreapp3.1\BorderControl.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\bin\Debug\netcoreapp3.1\BorderControl.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\bin\Debug\netcoreapp3.1\BorderControl.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\bin\Debug\netcoreapp3.1\BorderControl.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\bin\Debug\netcoreapp3.1\BorderControl.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\obj\Debug\netcoreapp3.1\BorderControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\obj\Debug\netcoreapp3.1\BorderControl.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\obj\Debug\netcoreapp3.1\BorderControl.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\obj\Debug\netcoreapp3.1\BorderControl.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\obj\Debug\netcoreapp3.1\BorderControl.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\obj\Debug\netcoreapp3.1\BorderControl.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\BorderControl\obj\Debug\netcoreapp3.1\BorderControl.genruntimeconfig.cache

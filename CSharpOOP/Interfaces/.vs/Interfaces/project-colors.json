@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a458f981-9134-4925-823b-61534c8d30be": {
+      "ProjectGuid": "a458f981-9134-4925-823b-61534c8d30be",
+      "DisplayName": "DefineAnInterfaceIPerson",
+      "ColorIndex": 0
+    },
+    "150442ef-efb9-4910-bc10-9f5adef7c3bc": {
+      "ProjectGuid": "150442ef-efb9-4910-bc10-9f5adef7c3bc",
+      "DisplayName": "MultipleImplementation",
+      "ColorIndex": 1
+    },
+    "025f756d-a869-4ac5-be62-f86aa50e9bb5": {
+      "ProjectGuid": "025f756d-a869-4ac5-be62-f86aa50e9bb5",
+      "DisplayName": "Telephony",
+      "ColorIndex": 2
+    },
+    "62360761-e379-468c-8633-fbd95e99b24f": {
+      "ProjectGuid": "62360761-e379-468c-8633-fbd95e99b24f",
+      "DisplayName": "BorderControl",
+      "ColorIndex": 3
+    },
+    "263752c9-3e35-41fb-8aa3-34697d80220f": {
+      "ProjectGuid": "263752c9-3e35-41fb-8aa3-34697d80220f",
+      "DisplayName": "BirthdayCelebrations",
+      "ColorIndex": 4
+    },
+    "ccefed24-26fb-4575-8a18-47cdb7f1544c": {
+      "ProjectGuid": "ccefed24-26fb-4575-8a18-47cdb7f1544c",
+      "DisplayName": "FoodShortage",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

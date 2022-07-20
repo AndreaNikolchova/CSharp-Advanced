@@ -20,7 +20,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "dd373244-cd21-4786-b4f5-fb4bc23a7610": {
+      "ProjectGuid": "dd373244-cd21-4786-b4f5-fb4bc23a7610",
+      "DisplayName": "FootballTeamGenerator",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
