@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRoot", "SquareRoot\SquareRoot.csproj", "{51A29AA4-DB09-4453-9FDB-D7857102AD6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareRoot", "SquareRoot\SquareRoot.csproj", "{51A29AA4-DB09-4453-9FDB-D7857102AD6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterNumbers", "EnterNumbers\EnterNumbers.csproj", "{3EE00DDE-7BF6-45E9-A788-31720EF765F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterNumbers", "EnterNumbers\EnterNumbers.csproj", "{3EE00DDE-7BF6-45E9-A788-31720EF765F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{38604002-F239-4908-94BA-282AF3AA9E15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cards", "Cards\Cards.csproj", "{38604002-F239-4908-94BA-282AF3AA9E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfIntegers", "SumOfIntegers\SumOfIntegers.csproj", "{A078B0C6-2CA0-46A0-B813-0E650CC73341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayCatch", "PlayCatch\PlayCatch.csproj", "{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{38604002-F239-4908-94BA-282AF3AA9E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38604002-F239-4908-94BA-282AF3AA9E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38604002-F239-4908-94BA-282AF3AA9E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A078B0C6-2CA0-46A0-B813-0E650CC73341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A078B0C6-2CA0-46A0-B813-0E650CC73341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A078B0C6-2CA0-46A0-B813-0E650CC73341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A078B0C6-2CA0-46A0-B813-0E650CC73341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

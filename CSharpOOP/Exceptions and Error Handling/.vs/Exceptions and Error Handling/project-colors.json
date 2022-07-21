@@ -15,7 +15,17 @@
       "ProjectGuid": "38604002-f239-4908-94ba-282af3aa9e15",
       "DisplayName": "Cards",
       "ColorIndex": 2
+    },
+    "a078b0c6-2ca0-46a0-b813-0e650cc73341": {
+      "ProjectGuid": "a078b0c6-2ca0-46a0-b813-0e650cc73341",
+      "DisplayName": "SumOfIntegers",
+      "ColorIndex": 3
+    },
+    "a742f6c6-140d-4a8a-acb6-fdcfc3b7a07a": {
+      "ProjectGuid": "a742f6c6-140d-4a8a-acb6-fdcfc3b7a07a",
+      "DisplayName": "PlayCatch",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

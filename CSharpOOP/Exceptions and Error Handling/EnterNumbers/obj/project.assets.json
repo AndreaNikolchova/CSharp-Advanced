@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling Lab\\EnterNumbers\\EnterNumbers.csproj",
+      "projectUniqueName": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling\\EnterNumbers\\EnterNumbers.csproj",
       "projectName": "EnterNumbers",
-      "projectPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling Lab\\EnterNumbers\\EnterNumbers.csproj",
+      "projectPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling\\EnterNumbers\\EnterNumbers.csproj",
       "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling Lab\\EnterNumbers\\obj\\",
+      "outputPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling\\EnterNumbers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config",

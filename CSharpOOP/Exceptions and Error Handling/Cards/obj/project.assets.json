@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling Lab\\Cards\\Cards.csproj",
+      "projectUniqueName": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling\\Cards\\Cards.csproj",
       "projectName": "Cards",
-      "projectPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling Lab\\Cards\\Cards.csproj",
+      "projectPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling\\Cards\\Cards.csproj",
       "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling Lab\\Cards\\obj\\",
+      "outputPath": "C:\\Users\\Adi\\Uni\\CSharp-Advanced\\CSharpOOP\\Exceptions and Error Handling\\Cards\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config",
