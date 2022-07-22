@@ -71,7 +71,7 @@ namespace PizzaCalories
         }
         public double GramsTopping()
         {
-            return this.Grams * 2 * this.OneOfFourToppings;
+            return this.Grams *2.00* this.OneOfFourToppings;
         }
 
     }

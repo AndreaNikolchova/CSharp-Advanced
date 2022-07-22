@@ -25,7 +25,12 @@
       "ProjectGuid": "a742f6c6-140d-4a8a-acb6-fdcfc3b7a07a",
       "DisplayName": "PlayCatch",
       "ColorIndex": 4
+    },
+    "f0c095fb-2c6a-4b0b-a712-795a31061e2d": {
+      "ProjectGuid": "f0c095fb-2c6a-4b0b-a712-795a31061e2d",
+      "DisplayName": "MoneyTransactions",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }

@@ -9,7 +9,7 @@ namespace PizzaCalories
             Pizza pizza = null;
             while (true)
             {
-                string[] array = Console.ReadLine().Split(' ',StringSplitOptions.RemoveEmptyEntries);
+                string[] array = Console.ReadLine().Split(' ');
                 if (array[0] == "END")
                 {
                     break;
@@ -28,7 +28,7 @@ namespace PizzaCalories
                     }
                     if (array[0]=="Topping")
                     {
-                        if (pizza.Count>10)
+                        if (pizza.NumberOfToppings>10)
                             throw new Exception("Number of toppings should be in range [0..10].");
                         else
                             pizza.AddTopings(new Topping(array[1],int.Parse(array[2])));

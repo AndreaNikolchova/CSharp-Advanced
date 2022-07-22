@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BirthdayCelebrations
+namespace FoodShortage
 {
     using Interfaces;
     public class Citizens : IPerson,IBirthable

@@ -53,6 +53,7 @@
             }
 
         }
+
         public void RatingPrint(Team team)
         {
             Console.WriteLine();

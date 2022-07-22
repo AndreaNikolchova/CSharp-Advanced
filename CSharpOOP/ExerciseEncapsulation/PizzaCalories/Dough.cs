@@ -87,7 +87,7 @@ namespace PizzaCalories
             }
              private set 
             {
-                if (value<0||value>200)
+                if (value<=0||value>200)
                     throw new Exception("Dough weight should be in the range [1..200].");
                 else
                 this.weight = value;

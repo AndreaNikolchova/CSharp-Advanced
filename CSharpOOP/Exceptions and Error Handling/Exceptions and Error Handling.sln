@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterNumbers", "EnterNumber
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cards", "Cards\Cards.csproj", "{38604002-F239-4908-94BA-282AF3AA9E15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfIntegers", "SumOfIntegers\SumOfIntegers.csproj", "{A078B0C6-2CA0-46A0-B813-0E650CC73341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfIntegers", "SumOfIntegers\SumOfIntegers.csproj", "{A078B0C6-2CA0-46A0-B813-0E650CC73341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayCatch", "PlayCatch\PlayCatch.csproj", "{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayCatch", "PlayCatch\PlayCatch.csproj", "{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyTransactions", "MoneyTransactions\MoneyTransactions.csproj", "{F0C095FB-2C6A-4B0B-A712-795A31061E2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A742F6C6-140D-4A8A-ACB6-FDCFC3B7A07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C095FB-2C6A-4B0B-A712-795A31061E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C095FB-2C6A-4B0B-A712-795A31061E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C095FB-2C6A-4B0B-A712-795A31061E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C095FB-2C6A-4B0B-A712-795A31061E2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

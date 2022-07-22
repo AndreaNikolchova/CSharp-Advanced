@@ -15,7 +15,7 @@ namespace PizzaCalories
             }
             private set
             {
-                if (string.IsNullOrWhiteSpace(value) || value.Length < 1 || value.Length > 15)
+                if (string.IsNullOrWhiteSpace(value) || value.Length > 15)
                     throw new Exception("Pizza name should be between 1 and 15 symbols.");
                 else 
                     this.name = value;
@@ -23,7 +23,7 @@ namespace PizzaCalories
         }
         public Dough Dough { get;  set; }
         private List<Topping> toppings;
-        public int Count { get { return toppings.Count; } }
+        public int NumberOfToppings { get { return toppings.Count; } }
         public Pizza(string name)
         {
             this.Name = name;

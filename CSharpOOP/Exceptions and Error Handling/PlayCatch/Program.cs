@@ -12,6 +12,11 @@ namespace PlayCatch
             int countOfExeptions = 0;
             while (true)
             {
+                if (countOfExeptions==3)
+                {
+                    Console.WriteLine(String.Join(", ",numbers));
+                    return;
+                }
                 string[] line = Console.ReadLine().Split(' ');
                 try
                 {
@@ -24,6 +29,7 @@ namespace PlayCatch
                             Print(int.Parse(line[1]), int.Parse(line[2]), numbers);
                             break;
                         case "Show":
+                            Show(int.Parse(line[1]),numbers);
                             break;
                     }
                 }
@@ -34,9 +40,19 @@ namespace PlayCatch
                 }
                 catch(Exception)
                 {
+                    countOfExeptions++;
                     Console.WriteLine("The index does not exist!");
                 }
             }
+        }
+
+        private static void Show(int index, List<int> numbers)
+        {
+            if (index<0&&index>=numbers.Count)
+            {
+                throw new Exception();
+            }
+            Console.WriteLine(numbers[index]);
         }
 
         private static void Print(int indexStart, int indexEnd, List<int> numbers)

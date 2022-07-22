@@ -6,7 +6,7 @@ namespace SumOfIntegers
     {
         static void Main(string[] args)
         {
-            string[] input  =  Console.ReadLine().Split(' ',StringSplitOptions.RemoveEmptyEntries);
+            string[] input  =  Console.ReadLine().Split(' ');
             int sum = 0;
             foreach (var item in input)
             {

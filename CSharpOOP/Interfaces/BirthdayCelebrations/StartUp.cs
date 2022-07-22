@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BirthdayCelebrations
+namespace FoodShortage
 {
     using Interfaces;
     using Classes;
