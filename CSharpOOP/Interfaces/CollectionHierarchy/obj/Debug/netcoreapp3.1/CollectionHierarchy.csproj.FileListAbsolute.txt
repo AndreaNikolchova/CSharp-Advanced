@@ -1,0 +1,13 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\obj\Debug\netcoreapp3.1\CollectionHierarchy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\obj\Debug\netcoreapp3.1\CollectionHierarchy.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\obj\Debug\netcoreapp3.1\CollectionHierarchy.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\obj\Debug\netcoreapp3.1\CollectionHierarchy.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\bin\Debug\netcoreapp3.1\CollectionHierarchy.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\bin\Debug\netcoreapp3.1\CollectionHierarchy.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\bin\Debug\netcoreapp3.1\CollectionHierarchy.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\bin\Debug\netcoreapp3.1\CollectionHierarchy.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\bin\Debug\netcoreapp3.1\CollectionHierarchy.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\bin\Debug\netcoreapp3.1\CollectionHierarchy.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\obj\Debug\netcoreapp3.1\CollectionHierarchy.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\obj\Debug\netcoreapp3.1\CollectionHierarchy.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\CollectionHierarchy\obj\Debug\netcoreapp3.1\CollectionHierarchy.genruntimeconfig.cache

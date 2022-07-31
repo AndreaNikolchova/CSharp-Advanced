@@ -35,7 +35,32 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "47c9ab4b-69ca-4fea-8833-eb0c3c772e62": {
+      "ProjectGuid": "47c9ab4b-69ca-4fea-8833-eb0c3c772e62",
+      "DisplayName": "MilitaryElite",
+      "ColorIndex": 6
+    },
+    "0faef99e-267a-4646-8e9f-f90a5cd88daa": {
+      "ProjectGuid": "0faef99e-267a-4646-8e9f-f90a5cd88daa",
+      "DisplayName": "CollectionHierarchy",
+      "ColorIndex": 7
+    },
+    "bc6d5cb8-b993-4ffe-8263-d46e41162513": {
+      "ProjectGuid": "bc6d5cb8-b993-4ffe-8263-d46e41162513",
+      "DisplayName": "ExplicitInterfaces",
+      "ColorIndex": 8
+    },
+    "f50e159d-2878-4054-a818-8f33a3a1666f": {
+      "ProjectGuid": "f50e159d-2878-4054-a818-8f33a3a1666f",
+      "DisplayName": "Shapes",
+      "ColorIndex": 9
+    },
+    "6d6cffb1-505a-4fd5-8361-dc50ba4e5ed4": {
+      "ProjectGuid": "6d6cffb1-505a-4fd5-8361-dc50ba4e5ed4",
+      "DisplayName": "Cars",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 11
 }

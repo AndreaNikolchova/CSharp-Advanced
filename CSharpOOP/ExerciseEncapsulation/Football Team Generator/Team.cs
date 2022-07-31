@@ -6,13 +6,18 @@
     {
         private readonly List<Player> players;
         private string name;
-        private double rating;
+        private decimal rating;
         public string Name
         {
             get { return this.name; }
-            set { this.name = value; }
+            private set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException("A name should not be empty.");
+                this.name = value;
+            }
         }
-        public double Rating
+        public decimal Rating
         {
             get { return this.rating; }
             set { this.rating = value; }
@@ -54,9 +59,17 @@
 
         }
 
-        public void RatingPrint(Team team)
+        public void RatingPrint()
         {
-            Console.WriteLine();
+            foreach(Player player in players)
+            {
+                this.Rating =  this.Rating + player.Raiting();
+            }
+            if (players.Count != 0)
+            {
+                this.Rating = this.Rating / players.Count;
+            }
+            Console.WriteLine($"{this.Name} - {Math.Round(this.Rating)}");
         }
     }
 }

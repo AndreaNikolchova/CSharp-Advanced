@@ -1,0 +1,13 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.genruntimeconfig.cache

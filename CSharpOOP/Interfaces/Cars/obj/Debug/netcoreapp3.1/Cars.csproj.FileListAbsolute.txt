@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\bin\Debug\netcoreapp3.1\Cars.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\bin\Debug\netcoreapp3.1\Cars.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\bin\Debug\netcoreapp3.1\Cars.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\bin\Debug\netcoreapp3.1\Cars.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Interfaces\Cars\obj\Debug\netcoreapp3.1\Cars.genruntimeconfig.cache
