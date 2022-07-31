@@ -1,0 +1,14 @@
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\bin\Debug\netcoreapp3.1\AuthorProblem.exe
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\bin\Debug\netcoreapp3.1\AuthorProblem.deps.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\bin\Debug\netcoreapp3.1\AuthorProblem.runtimeconfig.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\bin\Debug\netcoreapp3.1\AuthorProblem.runtimeconfig.dev.json
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\bin\Debug\netcoreapp3.1\AuthorProblem.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\bin\Debug\netcoreapp3.1\AuthorProblem.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.csproj.AssemblyReference.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.AssemblyInfoInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.AssemblyInfo.cs
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.csproj.CoreCompileInputs.cache
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.dll
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.pdb
+C:\Users\Adi\Uni\CSharp-Advanced\CSharpOOP\Reflection and Attributes\CreateAttribute\obj\Debug\netcoreapp3.1\AuthorProblem.genruntimeconfig.cache
