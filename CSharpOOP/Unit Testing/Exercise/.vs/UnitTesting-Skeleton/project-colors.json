@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "07b99ec2-39fc-49d3-b347-8866e73651e3": {
+      "ProjectGuid": "07b99ec2-39fc-49d3-b347-8866e73651e3",
+      "DisplayName": "Database",
+      "ColorIndex": 0
+    },
+    "5795f810-87d3-4fc9-89b3-61985ee6f92b": {
+      "ProjectGuid": "5795f810-87d3-4fc9-89b3-61985ee6f92b",
+      "DisplayName": "Database.Tests",
+      "ColorIndex": 1
+    },
+    "1cd36e0f-575e-4a79-aed6-260706473182": {
+      "ProjectGuid": "1cd36e0f-575e-4a79-aed6-260706473182",
+      "DisplayName": "DatabaseExtended",
+      "ColorIndex": 2
+    },
+    "2ca77e66-6639-40bb-95e7-672d3e22c7dc": {
+      "ProjectGuid": "2ca77e66-6639-40bb-95e7-672d3e22c7dc",
+      "DisplayName": "DatabaseExtended.Tests",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "c399bae5-6152-42a7-b368-ec828aa4233e": {
+      "ProjectGuid": "c399bae5-6152-42a7-b368-ec828aa4233e",
+      "DisplayName": "FightingArena",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
