@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "40243b9a-88aa-48dd-9a11-fa65d6a28497": {
+      "ProjectGuid": "40243b9a-88aa-48dd-9a11-fa65d6a28497",
+      "DisplayName": "Skeleton",
+      "ColorIndex": 0
+    },
+    "fa635815-59b6-43a6-a359-ad093b6a90e1": {
+      "ProjectGuid": "fa635815-59b6-43a6-a359-ad093b6a90e1",
+      "DisplayName": "Skeleton.Tests",
+      "ColorIndex": 1
+    },
+    "8f9f7c1b-63bc-4a4e-b272-ad17bcf75b41": {
+      "ProjectGuid": "8f9f7c1b-63bc-4a4e-b272-ad17bcf75b41",
+      "DisplayName": "test",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
