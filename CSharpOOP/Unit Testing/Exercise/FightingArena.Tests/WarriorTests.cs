@@ -133,23 +133,39 @@ namespace FightingArena.Tests
            $"You are trying to attack too strong enemy");
         }
         [TestCase(49,100)]
-        [TestCase(30,120)]
         [TestCase(5,125)]
-        public void TestAttackMetodWithValidArguments(int damage,int defenderHp)
+        public void TestAttackMetod_ValidArguments_DefenceWithHigherHP(int damage,int defenderHp)
         {
             //arrange
             Warrior currentWarrior = new Warrior("Vlachko", 100, 50);
             Warrior warrior = new Warrior("Acheto", damage, defenderHp);
+            int hpCurrentWarrior = currentWarrior.HP;
+            int hpWarrior = warrior.HP;
+            //Act
             currentWarrior.Attack(warrior);
-
-            Assert.That(currentWarrior.HP,Is.EqualTo(50-damage));
-            if (warrior.HP<currentWarrior.Damage)
-                Assert.That(warrior.HP, Is.EqualTo(0));
-            else
-                Assert.That(warrior.HP, Is.EqualTo(warrior.HP - currentWarrior.Damage));
-
-         
+            //Assert
+            Assert.That(hpCurrentWarrior - damage, Is.EqualTo(currentWarrior.HP));
+            Assert.That(hpWarrior - 100, Is.EqualTo(warrior.HP));
         }
+
+        [TestCase(49, 34)]
+        [TestCase(30, 50)]
+        [TestCase(5, 99)]
+        public void TestAttackMethod_ValidArgument_DefenceWithLowerHP(int damage, int defenderHp)
+        {
+            //arrange
+            Warrior currentWarrior = new Warrior("Vlachko", 100, 50);
+            Warrior warrior = new Warrior("Acheto", damage, defenderHp);
+            int hpCurrentWarrior = currentWarrior.HP;
+            int hpWarrior = warrior.HP;
+            //Act
+            currentWarrior.Attack(warrior);
+            //Assert
+            Assert.That(hpCurrentWarrior - damage, Is.EqualTo(currentWarrior.HP));
+            Assert.That(warrior.HP, Is.EqualTo(0));
+            
+        }
+
 
     }
 }
