@@ -25,7 +25,7 @@ namespace DatabaseExtended.Tests
         public void TestIfConstructor_ThrowsExcessingCapacityExeption()
         {
             //Arrange
-            Person[] people = new Person[57];
+            Person[] people = new Person[17];
             Assert.Throws<ArgumentException>(() =>
             {
                 //Act
@@ -37,13 +37,12 @@ namespace DatabaseExtended.Tests
         }
 
         [Test]
-        public void TestCountGetter()
+        public void TestCountGetter(Person[] people)
         {
             //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
             Database database = new Database(people);
             //Act && Assert
-            Assert.That(database.Count, Is.EqualTo(1));
+            Assert.That(database.Count, Is.EqualTo(0));
         }
 
         [Test]
@@ -142,13 +141,14 @@ namespace DatabaseExtended.Tests
         public void TestRemoveMetodIfSuccessesfull()
         {
             //Arrange 
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
+            Person[] people = new Person[] { new Person(129130248, "Vladi"), new Person(2390809238,"Pesho") };
             Database database = new Database(people);
             //Act
             int countBefore = database.Count;
             database.Remove();
             //Assert
             Assert.That(database.Count, Is.EqualTo(countBefore - 1));
+            
         }
 
         [Test]

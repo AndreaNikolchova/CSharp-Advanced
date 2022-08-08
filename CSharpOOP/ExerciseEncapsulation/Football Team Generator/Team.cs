@@ -69,7 +69,7 @@
             {
                 this.Rating = this.Rating / players.Count;
             }
-            Console.WriteLine($"{this.Name} - {Math.Round(this.Rating)}");
+            Console.WriteLine($"{this.Name} - {Math.Round(this.Rating,MidpointRounding.AwayFromZero)}");
         }
     }
 }

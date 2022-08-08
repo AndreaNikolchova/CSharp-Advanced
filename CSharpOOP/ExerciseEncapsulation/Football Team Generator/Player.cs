@@ -83,7 +83,7 @@ namespace Football_Team_Generator
         {
             decimal sum = this.Endurance + this.Sprint + this.Dribble + this.Passing + this.Shooting;
             decimal round = sum / 5;
-            return Math.Round(round);
+            return Math.Round(round,MidpointRounding.AwayFromZero);
         }
 
     }
