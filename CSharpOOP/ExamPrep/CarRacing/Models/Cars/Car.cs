@@ -13,7 +13,7 @@
             this.Model = model;
             this.VIN = VIN;
             this.HorsePower = horsePower;
-            this.fuelAvailable = fuelAvailable;
+            this.FuelAvailable = fuelAvailable;
             this.FuelConsumptionPerRace = fuelConsumptionPerRace;
         }
         private string make;
@@ -56,7 +56,7 @@
         public int HorsePower
         {
             get { return this.hoursePower; }
-            private set
+            protected set
             {
                 if (value < 0)
                     throw new ArgumentException(ExceptionMessages.InvalidCarHorsePower);
@@ -70,7 +70,7 @@
             private set
             {
                 if (value < 0)
-                    this.FuelAvailable = 0;
+                    this.fuelAvailable = 0;
 
                 this.fuelAvailable = value;
             }
@@ -78,21 +78,17 @@
         private double fuelConsumprionPerRace;
         public double FuelConsumptionPerRace
         {
-            get { return this.FuelConsumptionPerRace; }
+            get { return this.fuelConsumprionPerRace; }
             private set
             {
                 if (value < 0)
                     throw new ArgumentException(ExceptionMessages.InvalidCarFuelConsumption);
-                this.FuelConsumptionPerRace = value;
+                this.fuelConsumprionPerRace = value;
             }
         }
-        public void Drive()
+        public virtual void Drive()
         {
             this.FuelAvailable -= this.FuelConsumptionPerRace;
-            if (this.GetType().Name == "TunedCar")
-            {
-                this.HorsePower = int.Parse(Math.Round(this.hoursePower * 0.97,MidpointRounding.AwayFromZero).ToString());
-            }
         }
     }
 }

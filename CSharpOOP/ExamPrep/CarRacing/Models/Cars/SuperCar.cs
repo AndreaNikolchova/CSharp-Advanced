@@ -12,5 +12,9 @@ namespace CarRacing.Models.Cars
         {
            
         }
+        public override void Drive()
+        {
+            base.Drive();
+        }
     }
 }

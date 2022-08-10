@@ -41,7 +41,7 @@
         public int DrivingExperience
         {
             get { return this.drivingExperience; }
-            private set
+            protected set
             {
                 if (value < 0 || value > 100)
                     throw new ArgumentException(ExceptionMessages.InvalidRacerDrivingExperience);
@@ -69,13 +69,10 @@
             return false;
         }
 
-        public void Race()
+        public virtual void Race()
         {
-            this.Car.Drive();
-            if (this.GetType().Name == "ProfessionalRacer")
-                this.DrivingExperience += 10;
-            else
-                this.DrivingExperience += 5;
+             this.Car.Drive();
+           
         }
     }
 }

@@ -12,5 +12,10 @@ namespace CarRacing.Models.Cars
         {
            
         }
+        public override void Drive()
+        {
+            base.Drive();
+            this.HorsePower = (int)Math.Round(this.HorsePower * 0.97, MidpointRounding.AwayFromZero);
+        }
     }
 }

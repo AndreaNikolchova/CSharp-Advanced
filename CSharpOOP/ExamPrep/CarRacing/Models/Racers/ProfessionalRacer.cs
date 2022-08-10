@@ -12,5 +12,10 @@ namespace CarRacing.Models.Racers
         public ProfessionalRacer(string username, ICar car) : base(username, racingBehavior, drivingExperience, car)
         {
         }
+        public override void Race()
+        {
+            base.Race();
+            this.DrivingExperience += 10;
+        }
     }
 }
