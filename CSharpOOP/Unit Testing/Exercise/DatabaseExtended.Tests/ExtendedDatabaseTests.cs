@@ -9,237 +9,377 @@ namespace DatabaseExtended.Tests
     [TestFixture]
     public class ExtendedDatabaseTests
     {
+      
         [Test]
-        public void TestConstructorSuccessfull()
+        public void TestConstructorWithVslidArguments()
         {
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            //Act
-            Database database = new Database(people);
+            //arrange and act
+            Database database = new Database(
+                new Person(040595, "Vladi"),
+                new Person(023949, "Acheto"),
+                new Person(20394, "Him"));
             //Assert
-            Assert.That(database.Count, Is.EqualTo(1));
-
+            Assert.That(database.Count, Is.EqualTo(3));
         }
-
         [Test]
-        public void TestIfConstructor_ThrowsExcessingCapacityExeption()
+        public void TestConstructorWith0()
         {
-            //Arrange
-            Person[] people = new Person[17];
-            Assert.Throws<ArgumentException>(() =>
-            {
-                //Act
-                Database database = new Database(people);
-            },
+            //arrange and act
+            Database database = new Database();
             //Assert
-            "Provided data length should be in range [0..16]!");
-
-        }
-
-        [Test]
-        public void TestCountGetter(Person[] people)
-        {
-            //Arrange
-            Database database = new Database(people);
-            //Act && Assert
             Assert.That(database.Count, Is.EqualTo(0));
         }
-
         [Test]
-        public void TestAddMethodSuccessfull()
+        public void TestConstructorWith16Elements()
         {
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
-            //Act
-            database.Add(new Person(65980009944, "pesho"));
+            //arrange and act
+            Database database = new Database(
+                new Person(040595, "Vladi"),
+                      new Person(1, "Acheto"),
+                      new Person(2, "a"),
+                      new Person(3, "b"),
+                      new Person(4, "c"),
+                      new Person(5, "d"),
+                      new Person(6, "e"),
+                      new Person(7, "f"),
+                      new Person(8, "g"),
+                      new Person(9, "h"),
+                      new Person(10, "i"),
+                      new Person(11, "j"),
+                      new Person(12, "k"),
+                      new Person(13, "l"),
+                      new Person(14, "m"),
+                      new Person(15, "n"));
             //Assert
-            Assert.That(people.Length, Is.EqualTo(database.Count - 1));
-
+            Assert.That(database.Count, Is.EqualTo(16));
         }
-
         [Test]
-        public void TestAddMethodAddingTheSameID()
+        public void TestExeedingCapasityConstructor()
         {
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
+            Assert.Throws<ArgumentException>(() =>
+            {
+                Database database = new Database(
+                      new Person(040595, "Vladi"),
+                      new Person(1, "Acheto"),
+                      new Person(2, "a"),
+                      new Person(3, "b"),
+                      new Person(4, "c"),
+                      new Person(5, "d"),
+                      new Person(6, "e"),
+                      new Person(7, "f"),
+                      new Person(8, "g"),
+                      new Person(9, "h"),
+                      new Person(10, "i"),
+                      new Person(11, "j"),
+                      new Person(12, "k"),
+                      new Person(13, "l"),
+                      new Person(14, "m"),
+                      new Person(15, "n"),
+                      new Person(16, "o"));
+            }, "Provided data length should be in range [0..16]!");   
+        }
+        [Test]
+        public void TestAddMethodExeedingCapasity()
+        {
+            Database database = new Database(
+               new Person(040595, "Vladi"),
+                     new Person(1, "Acheto"),
+                     new Person(2, "a"),
+                     new Person(3, "b"),
+                     new Person(4, "c"),
+                     new Person(5, "d"),
+                     new Person(6, "e"),
+                     new Person(7, "f"),
+                     new Person(8, "g"),
+                     new Person(9, "h"),
+                     new Person(10, "i"),
+                     new Person(11, "j"),
+                     new Person(12, "k"),
+                     new Person(13, "l"),
+                     new Person(14, "m"),
+                     new Person(15, "n"));
             Assert.Throws<InvalidOperationException>(() =>
             {
-                //Act
-                database.Add(new Person(129130248, "pesho"));
-            },
-            //Assert
-            "There is already user with this Id!");
-
+                database.Add(new Person(17, "o"));
+            }, "Array's capacity must be exactly 16 integers!");
         }
         [Test]
-        public void TestAddMethodAddingTheSameName()
+        public void TestAddMethodUserWithTheSameName()
         {
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
+            Database database = new Database(
+              new Person(040595, "Vladi"),
+                    new Person(1, "Acheto"),
+                    new Person(2, "a"),
+                    new Person(3, "b"),
+                    new Person(4, "c"),
+                    new Person(5, "d"),
+                    new Person(6, "e"),
+                    new Person(7, "f"),
+                    new Person(8, "g"),
+                    new Person(9, "h"),
+                    new Person(10, "i"),
+                    new Person(11, "j"),
+                    new Person(12, "k"),
+                    new Person(13, "l"),
+                    new Person(15, "n"));
             Assert.Throws<InvalidOperationException>(() =>
             {
-                //Act
-                database.Add(new Person(9120934903, "Vladi"));
-            },
-            //Assert
-            "There is already user with this username!");
-
+                database.Add(new Person(16, "n"));
+            }, "There is already user with this username!");
         }
-
         [Test]
-        public void TestIfAddMethod_ThrowsExcessingCapacityExeption()
+        public void TestAddMethodWithTheSameID()
         {
-            //Arrange
-            Person[] people = new Person[]
-            {
-                new Person(00938499348, "dfg"),
-                new Person(00938809348, "Vht"),
-                new Person(00968409348, "Vladi"),
-                new Person(04938409348, "Vgfh"),
-                new Person(00934409348, "Vlfg"),
-                new Person(00998409348, "Vsdft"),
-                new Person(01238409348, "Vl12"),
-                new Person(0093345409348, "gres"),
-                new Person(0093409348, "bngr"),
-                new Person(00938234348, "ertg"),
-                new Person(00938445648, "wrt"),
-                new Person(009384050648, "ghtr"),
-                new Person(0012348409348, "ntfg"),
-                new Person(1234538409348, "Vlsdgdg"),
-                new Person(056738409348, "bftgr"),
-                new Person(009383459348, "dfvdfi"),
-
-            };
-            Database database = new Database(people);
+            Database database = new Database(
+              new Person(040595, "Vladi"),
+                    new Person(1, "Acheto"),
+                    new Person(2, "a"),
+                    new Person(3, "b"),
+                    new Person(4, "c"),
+                    new Person(5, "d"),
+                    new Person(6, "e"),
+                    new Person(7, "f"),
+                    new Person(8, "g"),
+                    new Person(9, "h"),
+                    new Person(10, "i"),
+                    new Person(11, "j"),
+                    new Person(12, "k"),
+                    new Person(14, "m"),
+                    new Person(15, "n"));
             Assert.Throws<InvalidOperationException>(() =>
             {
-                //Act
-                database.Add(new Person(00938409348, "Vladi"));
-            },
-            //Assert
-            "Array's capacity must be exactly 16 integers!");
-
+                database.Add(new Person(15, "p"));
+            }, "There is already user with this Id!");
         }
-
         [Test]
-        public void TestIfRemoveMetod_ThrowsExeption()
+        public void TestAddMethodSucsessfullyWith15Elements()
         {
-            //Arrange 
+            Database database = new Database(
+             new Person(040595, "Vladi"),
+                   new Person(1, "Acheto"),
+                   new Person(2, "a"),
+                   new Person(3, "b"),
+                   new Person(4, "c"),
+                   new Person(5, "d"),
+                   new Person(6, "e"),
+                   new Person(7, "f"),
+                   new Person(8, "g"),
+                   new Person(9, "h"),
+                   new Person(10, "i"),
+                   new Person(11, "j"),
+                   new Person(12, "k"),
+                   new Person(14, "m"),
+                   new Person(15, "n"));
+            database.Add(new Person(16, "p"));
+            Assert.That(database.Count, Is.EqualTo(16));
+        }
+        [Test]
+        public void TestAddMethodSucsessfullyWith0Elemets()
+        {
             Database database = new Database();
-
+            database.Add(new Person(16, "p"));
+            Assert.That(database.Count, Is.EqualTo(1));
+        }
+        [Test]
+        public void TestRemoveWithZeroElements()
+        {
             Assert.Throws<InvalidOperationException>(() =>
             {
-                //Act
+                Database database = new Database();
                 database.Remove();
             });
         }
-
         [Test]
-        public void TestRemoveMetodIfSuccessesfull()
+        public void TestRemoveWithValidElements()
         {
-            //Arrange 
-            Person[] people = new Person[] { new Person(129130248, "Vladi"), new Person(2390809238,"Pesho") };
-            Database database = new Database(people);
-            //Act
-            int countBefore = database.Count;
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
             database.Remove();
-            //Assert
-            Assert.That(database.Count, Is.EqualTo(countBefore - 1));
-            
+            Assert.That(database.Count, Is.EqualTo(14));
         }
-
         [Test]
-        public void TestFindByUsernameSuccessesfull()
+        public void TestFindByUsernameMethodWithEmptyString()
         {
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
-            //Act
-            Person wantedPerson = database.FindByUsername("Vladi");
-            //Assert
-            Assert.That(wantedPerson, Is.EqualTo(people[0]));
-        }
-
-        [Test]
-        public void TestFindByUsernameWithNonExistendName()
-        {
-           
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
-            Assert.Throws<InvalidOperationException>(() =>
-            {
-                //Act
-                Person wantedPerson = database.FindByUsername("Pesho");
-
-            },
-            //Assert
-            "No user is present by this username!");  
-        }
-
-        [Test]
-        public void TestFindByUsernameWithNullString()
-        {
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
             Assert.Throws<ArgumentNullException>(() =>
             {
-                //Act
-                Person wantedPerson = database.FindByUsername(null);
-
-            },
-            //Assert
-            "Username parameter is null!");
+                database.FindByUsername("");
+            }, "Username parameter is null!");
         }
-
         [Test]
-        public void TestFindByIdSuccessesfull()
+        public void TestFindByUsernameMethodWithNullString()
         {
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
-            //Act
-            Person wantedPerson = database.FindById(129130248);
-            //Assert
-            Assert.That(wantedPerson, Is.EqualTo(people[0]));
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
+            Assert.Throws<ArgumentNullException>(() =>
+            {
+                database.FindByUsername(null);
+            }, "Username parameter is null!");
         }
-   
         [Test]
-        public void TestFindByIDWithNonExistendID()
+        public void TestFindByUsernameWithNonPresentName()
         {
-
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
             Assert.Throws<InvalidOperationException>(() =>
             {
-                //Act
-                Person wantedPerson = database.FindById(3674395);
-
-            },
-            //Assert
-            "No user is present by this ID!");
+                database.FindByUsername("Nqkoi");
+            }, "No user is present by this username!");
         }
         [Test]
-        public void TestFindByIDWithNegativeID()
+        public void TestFindByUsernameWithValidArguments()
         {
-
-            //Arrange
-            Person[] people = new Person[] { new Person(129130248, "Vladi") };
-            Database database = new Database(people);
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
+            Person person = database.FindByUsername("Vladi");
+            Assert.That(person, Is.Not.Null);
+            Assert.That(person.UserName, Is.EqualTo("Vladi"));
+            Assert.That(person.Id, Is.EqualTo(040595));
+        }
+        [Test]
+        public void TestFindByIdMethodWithNegativeNumber()
+        {
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
             Assert.Throws<ArgumentOutOfRangeException>(() =>
             {
-                //Act
-                Person wantedPerson = database.FindById(-12);
-
-            },
-            //Assert
-           "Id should be a positive number!");
+                database.FindById(-12345);
+            }, "Id should be a positive number!");
         }
+        [Test]
+        public void TestFindByIdMethodWithNonExistingNumber()
+        {
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
+            Assert.Throws<InvalidOperationException>(() =>
+            {
+                database.FindById(0);
+            }, "No user is present by this ID!");
+        }
+        [Test]
+        public void TestFindByIdWithValidArguments()
+        {
+            Database database = new Database(
+            new Person(040595, "Vladi"),
+                  new Person(1, "Acheto"),
+                  new Person(2, "a"),
+                  new Person(3, "b"),
+                  new Person(4, "c"),
+                  new Person(5, "d"),
+                  new Person(6, "e"),
+                  new Person(7, "f"),
+                  new Person(8, "g"),
+                  new Person(9, "h"),
+                  new Person(10, "i"),
+                  new Person(11, "j"),
+                  new Person(12, "k"),
+                  new Person(14, "m"),
+                  new Person(15, "n"));
+            Person person = database.FindById(040595);
+            Assert.That(person, Is.Not.Null);
+            Assert.That(person.UserName, Is.EqualTo("Vladi"));
+            Assert.That(person.Id, Is.EqualTo(040595));
+        }
+
 
     }
 }

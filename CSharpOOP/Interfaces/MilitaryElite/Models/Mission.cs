@@ -1,34 +1,37 @@
-﻿namespace MilitaryElite.Models
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MilitaryElite.Models
 {
     public class Mission
     {
-        public Mission(string codeName,string state)
-        {
-            this.CodeName = codeName;
-            this.state = state;
-        }
-        public string CodeName { get; private set; }
+        public string CodeName { get;private set;}
+
         private string state;
-        public string State 
+        public string State
         {
-            get
+            get { return this.state; }
+            private set 
             {
-               return this.state;
+                if (value == "inProgress" || value == "Finished")
+                    this.state = value;
+                else
+                    throw new InvalidOperationException("Non existing state!");
             }
-            private set
-            {
-                if (value != "inProgress" && value != "Finished")
-                {
-                    throw new InvalidState("Invalid state of Mission!!!");
-                }
-                this.state = value;
-            } 
+        }
+        public Mission(string name,string state)
+        {
+            this.CodeName = name;
+            this.State = state;
         }
         public void CompleteMission()
         {
-
+            this.State = "Finished";
         }
-
-        
+        public override string ToString()
+        {
+            return $"Code Name: {this.CodeName} State: {this.State}";
+        }
     }
 }

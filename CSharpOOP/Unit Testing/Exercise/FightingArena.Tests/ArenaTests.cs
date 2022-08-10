@@ -96,7 +96,68 @@
             Assert.That(attacker.HP, Is.EqualTo(160));
             Assert.That(defender.HP, Is.EqualTo(50));
         }
+        [Test]
+        public void TestFightMethodIfWorkingSuccessfully()
+        {
+            //Arrange
+            Warrior warrior1 = new Warrior("Gosho", 60, 100);
+            Warrior warrior2 = new Warrior("Pesho", 50, 200);
+            Arena arena = new Arena();
 
-        
+            //Act
+            arena.Enroll(warrior1);
+            arena.Enroll(warrior2);
+            arena.Fight("Gosho", "Pesho");
+
+            //Assert
+            Assert.That(warrior2.HP, Is.EqualTo(140));
+        }
+
+        [Test]
+        public void TestFightMethodWithInvalidAttackerNamer_ThrowingException()
+        {
+            Assert.Throws<InvalidOperationException>(() =>
+            {
+                //Arrange
+                Warrior warrior1 = new Warrior("Gosho", 20, 100);
+                Arena arena = new Arena();
+
+                //Act
+                arena.Enroll(warrior1);
+                arena.Fight("Peter", "Gosho");
+            },
+            $"There is no fighter with name Peter enrolled for the fights!");
+        }
+
+        [Test]
+        public void TestFightMethodWithInvalidDefenderNamer_ThrowingException()
+        {
+            Assert.Throws<InvalidOperationException>(() =>
+            {
+                //Arrange
+                Warrior warrior1 = new Warrior("Gosho", 20, 100);
+                Arena arena = new Arena();
+
+                //Act
+                arena.Enroll(warrior1);
+                arena.Fight("Gosho", "Spas");
+            },
+            $"There is no fighter with name Spas enrolled for the fights!");
+        }
+
+        [Test]
+        public void TestFightMethodWithInvalidNames_ThrowingException()
+        {
+            Assert.Throws<InvalidOperationException>(() =>
+            {
+                //Arrange
+                Arena arena = new Arena();
+
+                //Act
+                arena.Fight("Daniel", "Mihail");
+            },
+            $"There is no fighter with name Mihail enrolled for the fights!");
+        }
+
     }
 }

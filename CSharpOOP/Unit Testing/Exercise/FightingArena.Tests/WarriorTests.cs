@@ -80,9 +80,8 @@ namespace FightingArena.Tests
             //assert
             "HP should not be negative!");
         }
-
         [TestCase(29)]
-        [TestCase(25)]
+        [TestCase(30)]
         [TestCase(0)]
         public void TestAttackMetodWithLowerThen30HPAttacker(int currentHp)
         {
@@ -100,7 +99,7 @@ namespace FightingArena.Tests
         }
         [TestCase(29)]
         [TestCase(25)]
-        [TestCase(0)]
+        [TestCase(30)]
         public void TestAttackMetodWithLowerThen30HPDeffender(int attackingHp)
         {
             //arrange
@@ -134,36 +133,45 @@ namespace FightingArena.Tests
         }
         [TestCase(49,100)]
         [TestCase(5,125)]
-        public void TestAttackMetod_ValidArguments_DefenceWithHigherHP(int damage,int defenderHp)
+        public void TestAttackMetod_ValidArguments_DefenceWithHigherHPDefender(int damage,int defenderHp)
         {
             //arrange
             Warrior currentWarrior = new Warrior("Vlachko", 100, 50);
             Warrior warrior = new Warrior("Acheto", damage, defenderHp);
-            int hpCurrentWarrior = currentWarrior.HP;
-            int hpWarrior = warrior.HP;
             //Act
             currentWarrior.Attack(warrior);
             //Assert
-            Assert.That(hpCurrentWarrior - damage, Is.EqualTo(currentWarrior.HP));
-            Assert.That(hpWarrior - 100, Is.EqualTo(warrior.HP));
+            Assert.That(defenderHp-100, Is.EqualTo(warrior.HP));
         }
 
-        [TestCase(49, 34)]
-        [TestCase(30, 50)]
-        [TestCase(5, 99)]
-        public void TestAttackMethod_ValidArgument_DefenceWithLowerHP(int damage, int defenderHp)
+        [TestCase(34)]
+        [TestCase(50)]
+        [TestCase(99)]
+        public void TestAttackMethod_ValidArgument_DefenceWithLowerHPDefender(int defenderHp)
         {
             //arrange
-            Warrior currentWarrior = new Warrior("Vlachko", 100, 50);
-            Warrior warrior = new Warrior("Acheto", damage, defenderHp);
+            Warrior currentWarrior = new Warrior("Vlachko", 100, 200);
+            Warrior warrior = new Warrior("Acheto", 80, defenderHp);
             int hpCurrentWarrior = currentWarrior.HP;
-            int hpWarrior = warrior.HP;
             //Act
             currentWarrior.Attack(warrior);
             //Assert
-            Assert.That(hpCurrentWarrior - damage, Is.EqualTo(currentWarrior.HP));
             Assert.That(warrior.HP, Is.EqualTo(0));
             
+        }
+        [TestCase(49, 120)]
+        [TestCase(30, 100)]
+        [TestCase(5, 101)]
+        public void TestAttackMethod_ValidArgument_AttackerOnly(int damage, int defenderHp)
+        {
+            //arrange
+            Warrior currentWarrior = new Warrior("Vlachko", damage, defenderHp);
+            Warrior warrior = new Warrior("Acheto", 100, 70);
+            //Act
+            currentWarrior.Attack(warrior);
+            //Assert
+            Assert.That(currentWarrior.HP,Is.EqualTo(defenderHp-100));
+
         }
 
 

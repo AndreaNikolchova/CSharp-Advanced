@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System;
+using FakeItEasy;
 
 namespace Skeleton.Tests
 {
