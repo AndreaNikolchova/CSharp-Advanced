@@ -18,9 +18,6 @@ namespace CarRacing.Models.Maps
             double chanceOfWinningOfRacerTwo = 0;
             if (racerOne.IsAvailable()&&racerTwo.IsAvailable())
             {
-                racerOne.Race();
-                racerTwo.Race();
-
                 if (racerOne.RacingBehavior == "strict")
                    chanceOfWinningOfRacerOne = racerOne.Car.HorsePower * racerOne.DrivingExperience * racingBehaviorMultiplierStrict;
                 else
