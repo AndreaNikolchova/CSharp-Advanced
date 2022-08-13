@@ -2,11 +2,13 @@
 {
     using System.Collections.Generic;
     using System;
+    using System.Linq;
+
     public class Team
     {
         private readonly List<Player> players;
         private string name;
-        private decimal rating;
+        private double rating;
         public string Name
         {
             get { return this.name; }
@@ -17,7 +19,7 @@
                 this.name = value;
             }
         }
-        public decimal Rating
+        public double Rating
         {
             get { return this.rating; }
             set { this.rating = value; }
@@ -61,15 +63,16 @@
 
         public void RatingPrint()
         {
-            foreach(Player player in players)
+            List<double> list = new List<double>();
+            foreach (var player in this.players)
             {
-                this.Rating =  this.Rating + player.Raiting();
+                list.Add(player.Raiting());
             }
-            if (players.Count != 0)
-            {
-                this.Rating = this.Rating / players.Count;
-            }
-            Console.WriteLine($"{this.Name} - {Math.Round(this.Rating,MidpointRounding.AwayFromZero)}");
+
+            if (list.Count == 0)
+                Console.WriteLine(0);
+            else
+            Console.WriteLine(this.Name + " - " + (int)Math.Round(list.Average(), MidpointRounding.AwayFromZero)); 
         }
     }
 }

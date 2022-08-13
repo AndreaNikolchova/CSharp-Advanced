@@ -2,6 +2,9 @@
 namespace Football_Team_Generator
 {
     using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Player
     {
         public Player(string name,int endurance,int sprint, int dribble,int passing,int shooting)
@@ -79,11 +82,12 @@ namespace Football_Team_Generator
                 this.shooting = value; 
             }
         }
-        public decimal Raiting()
+        public double Raiting()
         {
-            decimal sum = this.Endurance + this.Sprint + this.Dribble + this.Passing + this.Shooting;
-            decimal round = sum / 5;
-            return Math.Round(round,MidpointRounding.AwayFromZero);
+            List<int> list = new List<int>()
+                { this.Endurance, this.Sprint, this.Dribble, this.Passing, this.Shooting};
+
+            return list.Average();
         }
 
     }
